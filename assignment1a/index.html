@@ -4,6 +4,10 @@
         <title> assignment1a solution </title>
         <style type="text/css">
             *{
+               box-sizing: border-box;
+            }
+           
+            *{
                 font-family:"Comic Sans Ms", Aria;
             }
 
@@ -11,32 +15,48 @@
             
                 text-align: center;
             }
-            *{
-               box-sizing: border-box;
-            }
            
             div{
             color: black;
             background-color: rgba(155, 155, 140, 0.89);
-            padding: 0px 5px 5px 5px;
-            margin: 100px 30px ;
-            width: 300px;
-            height: 220px;
+            padding: 0px 5px 5px 10px;
+            margin: 70px 10px ;
+            width: 350px;
+            height: 200px;
             border: 1px solid black;
             display: inline-block;
-  
-          
-        }
-            
-   
-        div span{
-            padding: 17px 3px 10px 10px ;
-            margin: 100px 230px ;
-            color: rgb(2, 2, 2);
-            background-color: rgb(236, 167, 205);
-            
-          
-        }
+            }
+
+            .item-relative {
+              position: relative;
+              top: 0px;
+              right: 0px;
+              background-color: #f0f0f0;
+              padding: 6px 50px;
+              border-left: 1px solid black;
+              border-bottom: 1px black;}
+
+            .relative-one{
+                background-color: rgb(253, 148, 253);
+                width: 70px;
+                height: 30px;
+    
+                
+                
+            }
+
+            .relative-two{
+                background-color: blanchedalmond;
+                width: 70px;
+                height: 30px;
+            }
+
+            .relative-three{
+                background-color: blueviolet;
+                width: 70px;
+                height: 30px;
+            }
+        
         </style>
 
     </head>
@@ -44,33 +64,35 @@
     
     <body>
       <h2> Our Menu</h2>
+      
       <div> 
-        <p> <span> Chicken</span></p>
-        <p> Filipino meat and vegetable stew.
+        <h3 class="relative-one">  Chicken </h3>
+        <p> Filipino meat and <br>vegetable stew.
             Airline chicken,Chicken dish.<br>
-            Adobo,Iberian culinary style.
+            Adobo,Iberian culinary<br> style.
             Ayam geprek,Indonesia<br> fried chicken dish.</p>
       </div>
-      <div> 
-        <p> <span> Beef</span></p>
       
-        <p> Angus Beef, Dry Aged and Wet-Aged Beef
-            Kosher Beef, Wagyu or Kobe Beef
-            Certified Beef Beef Grades
+      <div> 
+        <h3 class="relative-two">  Beef</h3>
+      
+        <p> Angus Beef, Dry Aged <br>and Wet-Aged Beef
+            Kosher Beef, <br>Wagyu or Kobe Beef
+            Certified <br>Beef Beef Grades
             Certified Beef
-            Organic Beef
+            Organic<br> Beef
             Antibiotic- and Hormone-Free
             
             </p>
       </div>
 
       <div> 
-        <p> <span> Sushi</span></p>
+        <h3 class="relative-three">  Sushi</h3>
       
         <p> Uzura, Quail, Wakame
-            horseradish, Yaki Tori
+            horseradish, <br>Yaki Tori
             Japanese type of skewered chicken
-            Yakisoba Fried buckwheat noodles<br>
+            Yakisoba<br> Fried buckwheat noodles<br>
             Japanese pickled burdock root
             
             </p>
