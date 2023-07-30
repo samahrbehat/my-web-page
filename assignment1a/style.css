@@ -27,59 +27,90 @@
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   align-items: center;
   padding: 10px 15px;
-  gap: 10px;
   flex-wrap: wrap;
 }
 
 .item {
   display: flex;
   flex-direction: column;
-  width: 30%;
+  width: 32%;
   background-color: #7e7a7a;
   border: 2px solid black;
   padding-left: 10px;
+  
+  
+}
+.item:hover{
+  background-color: rgb(172, 31, 31);
 }
 
 .chicken {
-  background-color: rgb(207, 143, 154);
+  background-color: rgb(199, 121, 134);
   color: #000;
   float: right;
-  width: 25%;
+  width: 30%;
   margin: 0;
   text-align: center;
   align-self: end;
   border: 2px solid black;
   border-right: none;
   border-top: none;
+  border-radius: 8px;
 }
 
 .beef {
-  background-color: rgb(189, 51, 74);
-  color: #fff;
+  background-color: rgb(250, 7, 47);
+  color: #0c0c0c;
   float: right;
-  width: 25%;
+  width: 30%;
   margin: 0;
   text-align: center;
   align-self: end;
   border: 2px solid black;
   border-right: none;
   border-top: none;
+  border-radius: 8px;
+
 }
 
 .sushi {
-  background-color: rgb(219, 208, 107);
+  background-color: rgb(255, 239, 96);
   color: black;
   float: right;
-  width: 25%;
+  width: 30%;
   margin: 0;
   text-align: center;
   align-self: end;
   border: 2px solid black;
   border-right: none;
   border-top: none;
+  border-radius: 8px;
+
+}
+.one{
+  background-color: rgb(255, 12, 154);
+  color: black;
+  width: 20%;
+  bottom: 0;
+
+}
+.two{
+  background-color: rgb(255, 12, 154);
+  color: black;
+  width: 20%;
+  bottom: 0;
+
+  
+}
+.three{
+  background-color: rgb(255, 12, 154);
+  color: black;
+  width: 20%;
+  bottom: 0;
+
+  
 }
 
 @media only screen and (max-width: 600px) {
@@ -93,3 +124,4 @@
     gap: 10px;
   }
 }
+
